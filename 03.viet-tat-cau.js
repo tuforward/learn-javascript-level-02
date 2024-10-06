@@ -35,9 +35,13 @@ const abbreviate_02 = (str, n = 0) => {
     let word_array = str.split(" "); // tách các từ
 
     // dùng hàm built-in filter tìm các từ có độ dài > n
-    let word_is_valid_length = word_array.filter(word => {
-        if(word.length >= n) return word;
-    });
+    // let word_is_valid_length = word_array.filter(word => {
+    //     if(word.length >= n) return word;
+    // });
+
+    // viết tắt 
+    let word_is_valid_length = word_array.filter(word => word.length >= n);
+
 
     // dùng hàm built-in array để tạo một mảng mới
     let word_new = word_is_valid_length.map(word => word[0]);
