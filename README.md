@@ -1,4 +1,4 @@
-# JAVASCRIPT CƠ BẢN PHẦN 2
+# JAVASCRIPT CƠ BẢN PHẦN 3
 
 ### Câu 01. Kiểm tra số nguyên dương.
 
